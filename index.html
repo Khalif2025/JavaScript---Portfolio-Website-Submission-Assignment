@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Khalif - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mohamed Khalif</h1>
+        <p>Software Developer | Canada</p>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Mohamed Khalif, a passionate software developer based in Canada. I specialize in web development and love creating efficient and scalable solutions.</p>
+    </section>
+
+    <section class="portfolio">
+        <h2>Projects</h2>
+        <div class="gallery">
+            <img src="https://source.unsplash.com/400x300/?bamboo,forest" alt="Project 1" onclick="openModal(this)">
+            <img src="https://source.unsplash.com/400x300/?nature,green" alt="Project 2" onclick="openModal(this)">
+            <img src="https://source.unsplash.com/400x300/?wood,eco" alt="Project 3" onclick="openModal(this)">
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: mohamed.khalif@gmail.com</p>
+    </section>
+
+    <div id="myModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
